@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "603391045231",
+    "firebase_url": "https://messageread-fc307-default-rtdb.firebaseio.com",
+    "project_id": "messageread-fc307",
+    "storage_bucket": "messageread-fc307.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603391045231:android:2064750a0346824f5c279a",
+        "android_client_info": {
+          "package_name": "ru.kraz.messageread"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQQSWCPJbiOVpbizazRMwBA43Xote6TEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603391045231:android:f81d60e31158e11e5c279a",
+        "android_client_info": {
+          "package_name": "ru.kraz.pushonesignal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQQSWCPJbiOVpbizazRMwBA43Xote6TEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603391045231:android:14a4ba009a0530e95c279a",
+        "android_client_info": {
+          "package_name": "ru.kraz.randomfriend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQQSWCPJbiOVpbizazRMwBA43Xote6TEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
