@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="com.huawei.pushagent.permission.RICHMEDIA_PROVIDER" />
-
     <application
         android:name=".App"
         android:allowBackup="true"
