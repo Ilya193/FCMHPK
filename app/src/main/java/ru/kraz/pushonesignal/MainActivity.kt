@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity()  {
 
         CoroutineScope(Dispatchers.IO).launch {
             val token = HmsInstanceId.getInstance(this@MainActivity).getToken("110274235", "HCM")
-            Log.i("s149", token)
-            HmsMessaging.getInstance(this@MainActivity).subscribe("test_topic")
+            HmsMessaging.getInstance(this@MainActivity).subscribe("Chat")
+            OneSignalHmsEventBridge.onNewToken(this@MainActivity, token)
         }
     }
 }
