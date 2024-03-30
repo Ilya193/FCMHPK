@@ -17,6 +17,7 @@ class MyHmsMessagingService : HmsMessageService() {
     override fun onMessageReceived(p0: RemoteMessage?) {
         super.onMessageReceived(p0)
         val data: Map<String, String> = p0?.dataOfMap!!
+        println("s149 test")
         //OneSignalHmsEventBridge.onMessageReceived(this@MyHmsMessagingService, p0)
         val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
 
