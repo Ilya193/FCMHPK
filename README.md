@@ -7,7 +7,7 @@ Content-Type: application/json
 Authorization: Bearer [access token]  
 body  
 {  
-    "message":{  
+	"message":{  
         "token":"[token]",  
         "notification":{  
             "title": "title",  
