@@ -1,7 +1,7 @@
 FCM
 https://developers.google.com/oauthplayground
 
-POST https://fcm.googleapis.com/v1/projects/[project id]/messages:send
+POST https://fcm.googleapis.com/v1/projects/[project id]/messages:send\n
 headers
 Content-Type: application/json
 Authorization: Bearer [access token]
