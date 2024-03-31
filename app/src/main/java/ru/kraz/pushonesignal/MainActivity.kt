@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.core.os.bundleOf
+import androidx.lifecycle.lifecycleScope
 import com.huawei.hms.aaid.HmsInstanceId
 import com.huawei.hms.common.internal.HmsClient
 import com.huawei.hms.push.HmsMessaging
@@ -17,11 +18,9 @@ class MainActivity : AppCompatActivity()  {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        CoroutineScope(Dispatchers.IO).launch {
+        lifecycleScope.launch(Dispatchers.IO) {
             val token = HmsInstanceId.getInstance(this@MainActivity).getToken("110274235", "HCM")
             HmsMessaging.getInstance(this@MainActivity).subscribe("topic1")
-            HmsMessaging.getInstance(this@MainActivity).subscribe("topic2")
-            println("s149 $token")
             //OneSignalHmsEventBridge.onNewToken(this@MainActivity, token)
         }
     }

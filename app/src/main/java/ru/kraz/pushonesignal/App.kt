@@ -26,7 +26,7 @@ class App : Application() {
             val channel = NotificationChannel(
                 MyHmsMessagingService.CHANNEL_ID,
                 MyHmsMessagingService.CHANNEL_NAME,
-                NotificationManager.IMPORTANCE_HIGH
+                NotificationManager.IMPORTANCE_DEFAULT
             )
             notificationManager.createNotificationChannel(channel)
         }
