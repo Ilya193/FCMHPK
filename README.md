@@ -1,7 +1,7 @@
 FCM
 https://developers.google.com/oauthplayground
 
-POST https://fcm.googleapis.com/v1/projects/[project id]/messages:send  
+POST https://fcm.googleapis.com/v1/projects/[project_id]/messages:send  
 headers  
 Content-Type: application/json  
 Authorization: Bearer [access token]  
@@ -25,7 +25,7 @@ grant_type client_credentials
 client_id [client_id]  
 client_secret [client_secret]  
   
-https://push-api.cloud.huawei.com/v1/[project id]/messages:send  
+https://push-api.cloud.huawei.com/v1/[project_id]/messages:send  
 Authorization Bearer [access token]  
 Content-Type: application/json  
 body  
