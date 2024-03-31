@@ -7,13 +7,13 @@ Content-Type: application/json
 Authorization: Bearer [access token]  
 body  
 {  
-   "message":{  
-      "token":"[token]",  
-      "notification":{  
-        "title": "title",  
-        "body": "body"  
-      }  
-   }  
+    "message":{  
+        "token":"[token]",  
+        "notification":{  
+            "title": "title",  
+            "body": "body"  
+        }  
+    }  
 }  
 
 HPK  
