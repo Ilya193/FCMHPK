@@ -6,15 +6,17 @@ headers
 Content-Type: application/json  
 Authorization: Bearer [access token]  
 body  
+```json
 {  
-	"message":{  
+    "message":{  
         "token":"[token]",  
         "notification":{  
             "title": "title",  
             "body": "body"  
         }  
     }  
-}  
+} 
+```
 
 HPK  
 GET https://oauth-login.cloud.huawei.com/oauth2/v3/token  
@@ -27,11 +29,13 @@ client_secret [client_secret]
   
 https://push-api.cloud.huawei.com/v1/[project_id]/messages:send  
 Authorization Bearer [access token]  
-Content-Type: application/json  
+Content-Type: application/json
 body  
+```json
 {  
     "message": {  
         "data": "{'title': 'title', 'body': 'body'}",  
         "token" : ["token"]  
     }  
 }  
+```
